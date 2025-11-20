@@ -32,7 +32,7 @@ A clean and interactive web application that generates color palettes based on a
 
 1. **Clone the repository** to your local machine:
    ```bash
-   git clone [https://github.com/YOUR-USERNAME/color-scheme-generator.git](https://github.com/YOUR-USERNAME/color-scheme-generator.git)
+   git clone https://github.com/Michele20488/color-scheme-generator.git
 
 2. **Online without setups** from this website:
     ```bash
