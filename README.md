@@ -2,7 +2,9 @@
 
 A clean and interactive web application that generates color palettes based on a seed color and a specific harmonic mode. It fetches data dynamically from **TheColorAPI** and allows users to copy hex codes instantly.
 
-![App Screenshot](screenshot.png)
+<p align="center">
+  <img src="screenshot.png" alt="App Screenshot" height="500">
+</p>
 
 ## ✨ Features
 
@@ -31,3 +33,7 @@ A clean and interactive web application that generates color palettes based on a
 1. **Clone the repository** to your local machine:
    ```bash
    git clone [https://github.com/YOUR-USERNAME/color-scheme-generator.git](https://github.com/YOUR-USERNAME/color-scheme-generator.git)
+
+2. **Online without setups** from this website:
+    ```bash
+    https://colorscheme-gen.netlify.app
