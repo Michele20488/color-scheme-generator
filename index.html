@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="filter-section">
+            <input type="color" id="filter-color" name="color"/>
+            <select id="filter-mode" name="mode">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome Dark</option>
+                <option value="monochrome-light">Monochrome Light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic Complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button id="filter-button">Get color scheme</button>
+        </section>
+        <p class="info">Select a color to copy his code.</p>
+        <section id="color-results">
+        </section>
+        <section id="color-hexs">
+        </section>
+        <div id="popup">
+            <p>The hex code of the color has been copied.</p>
+            <button id="close-popup">Close</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

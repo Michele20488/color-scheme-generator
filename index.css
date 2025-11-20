@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+#filter-section {
+    margin: 20px 15px;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+input {
+    width: 61px;
+    height: 42px;
+    display: block;
+    margin-right: 10px;
+    min-width: 40px;
+    border: 0.5px solid #D1D5DB
+}
+
+input::-webkit-color-swatch {
+    border: 0.5px solid #313131;
+}
+
+select {
+    width: 70%;
+    display: block;
+    margin-right: 10px;
+    height: 42px;
+    min-width: 180px;
+    font-size: 1em;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    padding-left: 10px;
+    font-weight: 400;
+    color: #111827;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml,<svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 1L8 8L1 1" stroke="%239CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 14px;
+    line-height: 24px;
+}
+
+#filter-button {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 125px;
+    font-size: 12px;
+    padding: 0 13px;
+    height: 42px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    background-color: #ffffff;
+    font-weight: 500;
+    color: #374151;
+    line-height: 16px;
+}
+
+#color-results {
+    display: flex;
+}
+
+.color-column {
+    width: 100vh;
+    height: 70vh;
+}
+
+.color-column:active {
+    opacity: 70%;
+}
+
+#color-hexs {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em;
+    margin-top: 11px;
+    padding-bottom: 11px;
+    font-weight: 500;
+    line-height: 24px;
+    border-bottom: 1px solid #D1D5DB;
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 50%;
+    padding: 18px 36px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    display: none;
+}
+
+#close-popup {
+    width: auto;
+    display: block;
+    font-size: 12px;
+    padding: 6px 13px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    background-color: #ffffff;
+    font-weight: 500;
+    color: #374151;
+    line-height: 16px;
+    margin-left: auto;
+}
+
+.info {
+    text-align: center;
+    font-size: 10px;
+}
